@@ -8,14 +8,14 @@ Stable algorithms are those that do not move the position of repeated elements f
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Sorting_stability_playing_cards.svg/330px-Sorting_stability_playing_cards.svg.png)
 
 
-Most commonly known sorting algorithms are-/
+Most commonly known sorting algorithms are-  
 1.Bubble Sort  
-2.Insertion Sort/
-3.Selection Sort/
-4.quick Sort/
-5.Merge Sort/
-6.Heap sort/
-7.Radix Sort/
-8.Shell Sort/
+2.Insertion Sort  
+3.Selection Sort  
+4.quick Sort  
+5.Merge Sort  
+6.Heap sort  
+7.Radix Sort  
+8.Shell Sort  
 Out of these algorithms Merge sort,quick sort,Heap sort and shell sort algorithms are said to be efficient sorting algorithms with average O(n log n)
 
