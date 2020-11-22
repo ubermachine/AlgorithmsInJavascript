@@ -1,0 +1,261 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Sorting/BubbleSort/README.js",
+			"settings":
+			{
+				"buffer_size": 887,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nJsPrettier\n----------\n\n  ┌────────────────────────────────────────────────────────────────────────────┐\n  │                     _     ____           _   _   _                         │\n  │                    | |___|  _ \\ _ __ ___| |_| |_(_) ___ _ __               │\n  │                 _  | / __| |_) | '__/ _ \\ __| __| |/ _ \\ '__|              │\n  │                | |_| \\__ \\  __/| | |  __/ |_| |_| |  __/ |                 │\n  │                 \\___/|___/_|   |_|  \\___|\\__|\\__|_|\\___|_|                 │\n  │                                                                            │\n  └────────────────────────────────────────────────────────────────────────────┘\n\n  JsPrettier is a Sublime Text Plug-in for Prettier, the opinionated code formatter.\n\n  ## Install Prettier\n\n  If you installed Prettier (using the yarn or npm command below), you're all set... otherwise:\n\n  If you've already installed Prettier (using a command below), you're all set... otherwise:\n\n      # yarn (local):\n      yarn add prettier --dev\n\n      # yarn (global):\n      yarn global add prettier\n\n      # npm (local):\n      npm install --save-dev prettier\n\n      # npm (global):\n      npm install --global prettier\n\n  ## Usage\n\n  There are three available options to format code:\n\n  1. Command Palette: From the command palette (ctrl/cmd + shift + p), type \"JsPrettier Format Code\".\n  2. Context Menu: Right-click anywhere in the file to bring up the context menu and select \"JsPrettier Format Code\".\n  3. Key Binding: There is no default key binding to run Prettier,\n     see https://github.com/jonlabelle/SublimeJsPrettier#custom-key-binding to add your own.\n\n  ## Help\n\n  For additional help including reporting issues, please visit the JsPrettier\n  home page at https://github.com/jonlabelle/SublimeJsPrettier.\n\n  ## Author\n\n  Jon LaBelle\n\n  ## License\n\n  The MIT License (MIT)\n\n  Copyright (c) 2017-2019 Jon LaBelle",
+			"settings":
+			{
+				"buffer_size": 1954,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ubermachine/Desktop/hong/AlgorithmsInJavascript",
+		"/home/ubermachine/Desktop/hong/AlgorithmsInJavascript/Sorting",
+		"/home/ubermachine/Desktop/hong/AlgorithmsInJavascript/Sorting/BubbleSort"
+	],
+	"file_history":
+	[
+		"/home/ubermachine/.config/sublime-text-3/Packages/JsPrettier/JsPrettier.sublime-settings",
+		"/home/ubermachine/Desktop/hong/AlgorithmsInJavascript/Sorting/README.md"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/home/ubermachine/Desktop/hong/AlgorithmsInJavascript"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Sorting/BubbleSort/README.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 887,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								887,
+								887
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								567,
+								567
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 156.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
