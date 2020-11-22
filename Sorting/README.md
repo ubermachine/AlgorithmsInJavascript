@@ -9,7 +9,7 @@ Stable algorithms are those that do not move the position of repeated elements f
 
 
 Most commonly known sorting algorithms are-/
-1.Bubble Sort/
+1.Bubble Sort  
 2.Insertion Sort/
 3.Selection Sort/
 4.quick Sort/
