@@ -3,7 +3,7 @@
 Sorting algorithms are used to arrange a list of elements in a certain order.
 
 Another term that is mostly heard with these sorting algorithms is Stable/Unstable algorithms.  
-Stable algorithms are those that do not move the position of repeated elements from their previous order.
+Stable algorithms are those that do not change the position of occurance of similar elements from their previous order.
 
 ![wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Sorting_stability_playing_cards.svg/330px-Sorting_stability_playing_cards.svg.png)
 
