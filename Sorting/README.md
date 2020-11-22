@@ -13,9 +13,9 @@ Most commonly known sorting algorithms are-
 2.Insertion Sort
 3.Selection Sort
 4.quick Sort
-4.Merge Sort
-5.Heap sort
-6.Radix Sort
-7.Shell Sort
+5.Merge Sort
+6.Heap sort
+7.Radix Sort
+8.Shell Sort
 Out of these algorithms Merge sort,quick sort,Heap sort and shell sort algorithms are said to be efficient sorting algorithms with average O(n log n)
 
