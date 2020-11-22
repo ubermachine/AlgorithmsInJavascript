@@ -1,0 +1,19 @@
+Sorting
+Sorting algorithms are used to put a list of elements in a certain order.
+Another term that is mostly heard with these sorting algorithms is Stable/Unstable algorithms
+Stable algorithms are those that do not move the position of repeated elements from their previous order.
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Sorting_stability_playing_cards.svg/330px-Sorting_stability_playing_cards.svg.png)
+
+
+Most commonly known sorting algorithms are-
+1.Bubble Sort
+2.Insertion Sort
+3.Selection Sort
+4.quick Sort
+4.Merge Sort
+5.Heap sort
+6.Radix Sort
+7.Shell Sort
+Out of these algorithms Merge sort,quick sort,Heap sort and shell sort algorithms are said to be efficient sorting algorithms with average O(n log n)
+
