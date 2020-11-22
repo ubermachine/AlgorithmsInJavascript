@@ -1,6 +1,6 @@
 # **Sorting**
 
-Sorting algorithms are used to put a list of elements in a certain order.
+Sorting algorithms are used to arrange a list of elements in a certain order.
 
 Another term that is mostly heard with these sorting algorithms is Stable/Unstable algorithms.  
 Stable algorithms are those that do not move the position of repeated elements from their previous order.
