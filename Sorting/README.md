@@ -18,5 +18,5 @@ Most commonly known sorting algorithms are-
 7. Radix Sort  
 8. Shell Sort
   
-Out of these algorithms Merge sort,quick sort,Heap sort and shell sort algorithms are said to be efficient sorting algorithms with average O(n log n)
+Out of these algorithms Merge sort,quick sort,Heap sort and shell sort algorithms are said to be efficient sorting algorithms with average Big O of (n log n)
 
