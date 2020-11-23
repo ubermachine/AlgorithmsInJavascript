@@ -18,4 +18,5 @@ function bubbleSort(arr) {
 	}
 	return arr;
 }
+bubbleSort([3,1,3,6,7,8,9,2,7,4])
 ```
