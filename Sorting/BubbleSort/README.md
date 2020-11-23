@@ -1,12 +1,8 @@
-<<<<<<< HEAD
-
 ## Bubble sort
 
 ### It is one of the simplest sorting algorithm with average complexity of (n^2) which means its efficiency decreases dramatically while performing operation on huge dataset.
 
 ![wikipedia](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
-
-> > > > > > > 03e34fa55c277aeba83f05d1505f4bb63307e128
 
 It consists of An outer loop which runs n(length of array) number of times and an inner loop which runs n-1 times as last element will already be in its final position in last nth pass.
 
