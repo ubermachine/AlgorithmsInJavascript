@@ -1,12 +1,14 @@
-function selectionSort(arr) {
-	for (let i = 0; i < arr.length - 1; i++) {
-		let min = i;
-		for (let j = i + 1; j < arr.length; j++) {
-			if (arr[min] > arr[j]) min = j;
+function insertionSort(arr) {
+	for (let i = 1; i < arr.length; i++) {
+		let current = arr[i];
+		//we check if current is smaller than elements in sorted array
+		for (var j = i - 1; j >= 0 && current < arr[j]; j--) {
+			//here we shift element to its next position
+			arr[j + 1] = arr[j];
 		}
-		if (min !== i) [arr[min], arr[i]] = [arr[i], arr[min]];
+		//finally after shifting we insert current element to its correct place
+		//notice j+1 is due to j-- try to console log j if you get confused.
+		arr[j + 1] = current;
 	}
 	return arr;
 }
-
-selectionSort([3, 3, 5, 7, 9, 444, 5, 42, 2]);
