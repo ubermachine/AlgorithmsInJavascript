@@ -3,35 +3,45 @@
 	{
 		"selected_items":
 		[
+			[
+				"Selection",
+				"selectionSort"
+			],
+			[
+				"j",
+				"j"
+			],
+			[
+				"i",
+				"i"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "Package Control Messages\n========================\n\nJsPrettier\n----------\n\n  ┌────────────────────────────────────────────────────────────────────────────┐\n  │                     _     ____           _   _   _                         │\n  │                    | |___|  _ \\ _ __ ___| |_| |_(_) ___ _ __               │\n  │                 _  | / __| |_) | '__/ _ \\ __| __| |/ _ \\ '__|              │\n  │                | |_| \\__ \\  __/| | |  __/ |_| |_| |  __/ |                 │\n  │                 \\___/|___/_|   |_|  \\___|\\__|\\__|_|\\___|_|                 │\n  │                                                                            │\n  └────────────────────────────────────────────────────────────────────────────┘\n\n  JsPrettier is a Sublime Text Plug-in for Prettier, the opinionated code formatter.\n\n  ## Install Prettier\n\n  If you installed Prettier (using the yarn or npm command below), you're all set... otherwise:\n\n  If you've already installed Prettier (using a command below), you're all set... otherwise:\n\n      # yarn (local):\n      yarn add prettier --dev\n\n      # yarn (global):\n      yarn global add prettier\n\n      # npm (local):\n      npm install --save-dev prettier\n\n      # npm (global):\n      npm install --global prettier\n\n  ## Usage\n\n  There are three available options to format code:\n\n  1. Command Palette: From the command palette (ctrl/cmd + shift + p), type \"JsPrettier Format Code\".\n  2. Context Menu: Right-click anywhere in the file to bring up the context menu and select \"JsPrettier Format Code\".\n  3. Key Binding: There is no default key binding to run Prettier,\n     see https://github.com/jonlabelle/SublimeJsPrettier#custom-key-binding to add your own.\n\n  ## Help\n\n  For additional help including reporting issues, please visit the JsPrettier\n  home page at https://github.com/jonlabelle/SublimeJsPrettier.\n\n  ## Author\n\n  Jon LaBelle\n\n  ## License\n\n  The MIT License (MIT)\n\n  Copyright (c) 2017-2019 Jon LaBelle",
+			"file": "Sorting/SelectionSort/README.md",
 			"settings":
 			{
-				"buffer_size": 1954,
-				"line_ending": "Unix",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"file": "Sorting/BubbleSort/README.md",
-			"settings":
-			{
-				"buffer_size": 1112,
+				"buffer_size": 927,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": ".gitignore",
+			"file": "Sorting/InsertionSort/README.md",
 			"settings":
 			{
-				"buffer_size": 351,
+				"buffer_size": 1142,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/ubermachine/.config/sublime-text-3/Packages/JsPrettier/JsPrettier.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 20859,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -75,17 +85,22 @@
 	[
 		"/home/ubermachine/Desktop/hong/AlgorithmsInJavascript",
 		"/home/ubermachine/Desktop/hong/AlgorithmsInJavascript/Sorting",
-		"/home/ubermachine/Desktop/hong/AlgorithmsInJavascript/Sorting/BubbleSort"
+		"/home/ubermachine/Desktop/hong/AlgorithmsInJavascript/Sorting/BubbleSort",
+		"/home/ubermachine/Desktop/hong/AlgorithmsInJavascript/Sorting/InsertionSort",
+		"/home/ubermachine/Desktop/hong/AlgorithmsInJavascript/Sorting/SelectionSort"
 	],
 	"file_history":
 	[
+		"/home/ubermachine/Desktop/hong/AlgorithmsInJavascript/Sorting/SelectionSort/selectionSort.js",
+		"/home/ubermachine/Desktop/hong/AlgorithmsInJavascript/Sorting/BubbleSort/bubbleSort.js",
 		"/home/ubermachine/Desktop/hong/AlgorithmsInJavascript/Sorting/BubbleSort/README.md",
+		"/home/ubermachine/Desktop/hong/AlgorithmsInJavascript/.gitignore",
 		"/home/ubermachine/.config/sublime-text-3/Packages/JsPrettier/JsPrettier.sublime-settings",
 		"/home/ubermachine/Desktop/hong/AlgorithmsInJavascript/Sorting/README.md"
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -99,6 +114,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"width",
+			"tab width",
 			".\n"
 		],
 		"highlight": true,
@@ -123,54 +140,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "Sorting/SelectionSort/README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1954,
+						"buffer_size": 927,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								567,
-								567
-							]
-						],
-						"settings":
-						{
-							"auto_indent": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 156.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Sorting/BubbleSort/README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1112,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								288,
-								288
+								515,
+								515
 							]
 						],
 						"settings":
@@ -185,31 +172,60 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": ".gitignore",
+					"buffer": 1,
+					"file": "Sorting/InsertionSort/README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 351,
+						"buffer_size": 1142,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								351,
-								351
+								612,
+								612
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/ubermachine/.config/sublime-text-3/Packages/JsPrettier/JsPrettier.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20859,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11475,
+								11475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5546.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -217,7 +233,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -254,7 +270,7 @@
 	"project": "",
 	"replace":
 	{
-		"height": 40.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
