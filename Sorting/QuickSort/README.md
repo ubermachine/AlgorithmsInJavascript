@@ -32,12 +32,13 @@ function quickSort(arr) {
     ...equal,
     ...quickSort(right)
   ];
-}```  
+}  
+```  
   
 ### Another implementation using Hoare's partition scheme  
 
 
-```
+```javascript
 function quickSort(arr, left = 0, right = arr.length - 1) {
   if (left >= right) return;
   const pivot = arr[Math.floor((left + right) / 2)];
