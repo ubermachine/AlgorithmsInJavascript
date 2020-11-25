@@ -2,12 +2,12 @@
 
 ## It is an efficient sorting algorithm based on Divide and Conquer strategy with average performance of O(n log n) and worst case of O(n^2) comparisons.
 
-A large array is partitioned into two arrays one of which holds smaller values than the pivot, based on which the partition is made and another array holds values greater than the pivot value.
-![wikipedia](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
+A large array is partitioned into two arrays one of which holds smaller values than the pivot, based on which the partition is made and another array holds values greater than the pivot value.  
+![wikipedia](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)  
+  
+Video-https://www.youtube.com/watch?v=MZaf_9IZCrc  
 
-Video-https://www.youtube.com/watch?v=MZaf_9IZCrc
-
-````javascript
+```javascript
 function quickSort(arr) {
   if (arr.length <= 1) {
     return arr;
@@ -32,8 +32,10 @@ function quickSort(arr) {
     ...equal,
     ...quickSort(right)
   ];
-}```
-Another implementation under Hoare's partition scheme
+}```  
+
+Another implementation using Hoare's partition scheme  
+
 
 ```javascript
 function quickSort(arr, left = 0, right = arr.length - 1) {
@@ -61,4 +63,4 @@ function partition(arr, left, right, pivot) {
   return left;
 }
 
-````
+```
