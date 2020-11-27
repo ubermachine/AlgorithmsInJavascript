@@ -7,7 +7,7 @@ A large array is partitioned into two arrays one of which holds smaller values t
 
 Video guide- https://www.youtube.com/watch?v=MZaf_9IZCrc
 
-### Videos implementation
+### Video's implementation
 
 ```javascript
 function quickSort(arr, lo = 0, hi = arr.length - 1) {
