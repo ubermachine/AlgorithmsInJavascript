@@ -1,25 +1,26 @@
-function quickSort(arr, left = 0, right = arr.length - 1) {
-  if (left >= right) return;
-  const pivot = arr[Math.floor((left + right) / 2)];
-  const index = partition(arr, left, right, pivot);
-  quickSort(arr, left, index - 1);
-  quickSort(arr, index, right);
-  console.log(arr);
+function quickSort(arr, lo = 0, hi = arr.length - 1) {
+  if (hi > lo) {
+    let p = partition(arr, lo, hi);
+    quickSort(arr, lo, p - 1);
+    quickSort(arr, p + 1, hi);
+  }
   return arr;
 }
-function partition(arr, left, right, pivot) {
-  while (left <= right) {
-    while (arr[left] < pivot && left <= right) {
-      left++;
-    }
-    while (arr[right] > pivot) {
-      right--;
-    }
-    if (left <= right) {
-      [arr[left], arr[right]] = [arr[right], arr[left]];
-      left++;
-      right--;
+function partition(arr, lo = 0, hi = arr.length - 1) {
+  let pivot = hi;
+
+  let i = lo - 1;
+  for (let j = lo; j < hi; j++) {
+    //If current element is smaller than or equal to pivot
+    if (arr[j] <= arr[pivot]) {
+      // increment index of smaller element
+      i++;
+      [arr[i], arr[j]] = [arr[j], arr[i]];
     }
   }
-  return left;
+  //put pivot in its position between lesser and higher partition
+  [arr[i + 1], arr[pivot]] = [arr[pivot], arr[i + 1]];
+  //return pivots position
+  return i + 1;
 }
+quickSort([12, 34, 2, 48, 12, 43, 32, 56, 63, 123, 43, 2, 55, 1, 23, 92]);

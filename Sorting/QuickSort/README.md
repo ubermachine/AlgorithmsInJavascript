@@ -35,7 +35,7 @@ function partition(arr, lo = 0, hi = arr.length - 1) {
 	//return pivots position
 	return i + 1;
 }
-quickSort([1, 4, 2, 8, 345, 123, 43, 32, 5643, 63, 123, 43, 2, 55, 1, 234, 92]);
+quickSort([12, 34, 2, 48, 12, 43, 32, 56, 63, 123, 43, 2, 55, 1, 23, 92]);
 ```
 
 ### Simple using Array
