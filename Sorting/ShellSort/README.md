@@ -13,18 +13,39 @@ function shellSort(array) {
 	while (gap > 0) {
 		for (let i = gap; i < array.length; i++) {
 			let j = i;
-			var container = array[i];
+			var temp = array[i];
 
-			while (j >= gap && array[j - gap] > container) {
+			while (j >= gap && array[j - gap] > temp) {
 				array[j] = array[j - gap];
 				j = j - gap;
 			}
 
-			array[j] = container;
+			array[j] = temp;
 		}
 		gap = Math.floor(gap / 2);
 	}
 
+	return array;
+}
+shellSort([5, 9, 8, 7, 1]);
+```
+
+OR with for loop
+
+```javascript
+function shellSort(array) {
+	let gap = Math.floor((array.length - 1) / 2);
+
+	while (gap > 0) {
+		for (let i = gap; i < array.length; i++) {
+			var temp = array[i];
+			for (var j = i; j >= gap && array[j - gap] > temp; j -= gap) {
+				array[j] = array[j - gap];
+			}
+			array[j] = temp;
+		}
+		gap = Math.floor(gap / 2);
+	}
 	return array;
 }
 shellSort([5, 9, 8, 7, 1]);
