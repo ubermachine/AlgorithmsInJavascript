@@ -25,7 +25,7 @@ function radixSort(arr) {
 		}
 		// Flatten the array
 		arr = buckets.flat();
-		// Move to the next significant digit as 123%10=3 and 123%100=23
+		// Move to the next significant digit as 123%10=3 and 123%100=23 see above formula and stack overflow answer
 		divisor *= 10;
 		maxDigits--;
 	}
